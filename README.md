@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Founder Decision Intelligence Engine
 
-# Run and deploy your AI Studio app
+An AI-powered decision support system built for founders. Feed it a business decision — pricing, hiring, market entry, pivot — and it returns a structured analysis with trade-offs, risks, and a recommended path.
 
-This contains everything you need to run your app locally.
+## What it does
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IN9dbQKL6I8pYqMVwJ6DqKwywN8HlGDE
+- **Frames** the decision clearly (what's actually being decided vs. what you think is being decided)
+- **Stress-tests** each option against your constraints (cash, time, team, market)
+- **Surfaces** hidden risks and second-order consequences
+- **Recommends** a path with confidence level and key assumptions to validate
 
-## Run Locally
+## Built for
 
-**Prerequisites:**  Node.js
+Founders making high-stakes calls without a board or advisor in the room.
 
+## Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React · TypeScript · Vite · Gemini API · Tailwind CSS
+
+## Built by [Sloe Labs](https://sloelabs.com)
+
+Part of the Sloe OS intelligence infrastructure — AI systems that think so operators can move fast.
+
